@@ -1,0 +1,252 @@
+.intro-bg {
+    margin: 0;
+    height: 700px;
+    position: relative;
+}
+
+.intro-text {
+    text-align: center;
+}
+
+.intro-title {
+    color: #EEEEEE;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    font-weight: bold;
+}
+
+.intro-subtitle {
+    color: #EEEEEE;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+
+.bot-cloud {
+    position: absolute;
+    left: 20%;
+    bottom: 25%;
+}
+
+.arrow {
+    color: #e31b6d;
+    bottom: 10%;
+}
+
+.navbar-item a{
+    color: #fff;
+    font-size: large;
+}
+
+.navbar-item a:hover{
+    color: #e68cb1;
+}
+
+.navbar {
+    background-color: #393E46;
+    position: sticky;
+}
+
+.active a{
+    color: #e31b6d;
+}
+
+.bg-grayish {
+    background-color: #EEEEEE;
+}
+
+.bg-dark {
+    background-color: #222831;
+}
+
+.bg-light {
+    background-color: #ffffff;
+}
+
+.section {
+    padding: 0% 10% 5%;
+}
+
+.section-header {
+    color: #66BFBF;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    padding-top: 60px;
+}
+
+.desc {
+    color: #222831;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: justify;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+#about .desc {
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+/* EDUCATION */
+#education p {
+    font-size: 1rem;
+}
+
+
+/* PROG EXP */
+#prog-exp p {
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+
+/* SKILLS */
+#skills .desc {
+    margin-left: 30%;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+
+/* CONTACT */
+#contact .btn {
+    padding: 0.2rem 2rem 0.2rem;
+}
+
+#contact {
+    padding-bottom: 3%;
+}
+
+/* FOOTER */
+#footer {
+    padding: 3% 10% 3%;
+}
+
+.footer-icon {
+    color: white;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+.copyright {
+    color: #8f8f8f;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+
+
+                                        /* MEDIA QUERY (RESPONSIVE) */
+
+/* TANGGUNG */
+@media only screen and (max-width: 992px) {
+    .top-cloud {
+        right: 10%;
+    }
+    
+    .bot-cloud {
+        left: 10%;
+    }
+}
+
+/* IPAD / TABLET */
+@media (max-width: 768px) {
+    .intro-text {
+        top: 40%!important;
+    }
+
+    .intro-title {
+        font-size: 4rem;
+    }
+
+    .intro-subtitle {
+        font-size: 2rem;
+    }
+
+    .top-cloud, .bot-cloud {
+        width: 130px;
+        height: 40px;
+    }
+
+    .top-cloud {
+        top: 15%;
+        right: 10%;
+    }
+    
+    .bot-cloud {
+        bottom: 35%;
+        left: 10%;
+    }
+
+    .section-header {
+        text-align: center;
+    }
+}
+
+/* SMARTPHONE */
+@media (max-width: 480px) {
+    .intro-text {
+        top: 35%!important;
+    }
+
+    .intro-title {
+        font-size: 2.6rem;
+    }
+
+    .intro-subtitle {
+        font-size: 1.5rem;
+    }
+
+    .top-cloud, .bot-cloud {
+        width: 100px;
+        height: 32px;
+    }
+
+    .top-cloud {
+        top: 15%;
+        right: 12%;
+    }
+    
+    .bot-cloud {
+        bottom: 45%;
+        left: 12%;
+    }
+
+    .desc {
+        font-size: 1.1rem;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    #skills .desc {
+        font-size: 1.1rem;
+    }
+
+    #education p {
+        font-size: 0.9rem;
+    }
+
+    #org-exp p {
+        font-size: 1rem;
+    }
+}
