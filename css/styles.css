@@ -6,6 +6,7 @@
 
 .intro-text {
     text-align: center;
+    top: 40%;
 }
 
 .intro-title {
@@ -23,19 +24,19 @@
 
 .top-cloud {
     position: absolute;
-    top: 20%;
+    top: 10%;
     right: 20%;
 }
 
 .bot-cloud {
     position: absolute;
     left: 20%;
-    bottom: 25%;
+    bottom: 35%;
 }
 
 .arrow {
     color: #e31b6d;
-    bottom: 10%;
+    bottom: 23%;
 }
 
 .navbar-item a{
